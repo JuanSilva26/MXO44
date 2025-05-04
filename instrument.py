@@ -385,7 +385,7 @@ class MXO44:
         data = self.capture_waveform(channel)
         
         plt.figure(figsize=self.plot_settings.figure_size)
-        plt.plot(data["time"], data["voltage"], linewidth=1.5)
+        plt.plot(data["time"], data["voltage"], '.', linewidth=1.5)
         
         if self.plot_settings.show_grid:
             plt.grid(True, linestyle='--', alpha=0.7)

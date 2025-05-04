@@ -108,7 +108,7 @@ def main():
         if use_arbitrary:
             # Create and configure arbitrary waveform
             print("\nCreating arbitrary waveform...")
-            csv_file = create_example_waveform("damped_sine")  # Try different waveform types
+            csv_file = create_example_waveform("chirp")  # Try different waveform types
             print(f"Created waveform file: {csv_file}")
             
             print("\nConfiguring arbitrary waveform generator...")
